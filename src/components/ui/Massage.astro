@@ -11,15 +11,41 @@ const { imgUrl, alt, title, description, link } = Astro.props
 ---
 
 <a
-  class="group w-[300px] h-[400px] rounded-md border border-primary bg-primary p-2 shadow-md transition hover:scale-105 hover:shadow-none"
+  class="link group relative flex h-[450px] w-[300px] flex-col rounded-md border border-primary bg-primary p-2 shadow-md transition hover:scale-105 hover:shadow-none"
   href={link}>
-  <img src={imgUrl} alt={alt} class="h-[160px] w-full object-cover"/>
-  <h3 class="font-title my-4">{title}</h3>
-  
-  <div class="flex flex-col justify-arround">
-    <p class="font-text text-sm">{description}</p>
-    <p class="transition group-hover:text-white group-hover:underline text-sm">
-      Saiba Mais <span class="arrow">→</span>
-    </p>
-  </div>
+  <img src={imgUrl} alt={alt} class="h-[160px] w-full rounded object-cover" />
+  <h3 class="my-4 text-center font-title text-lg italic">{title}</h3>
+
+  <p class="text-md text-balance font-text font-medium">{description}</p>
+  <p
+    class="absolute bottom-2 font-text text-sm transition group-hover:text-white group-hover:underline">
+    Saiba Mais <span class="arrow">
+      <svg
+        class="openLink inline"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+        height="20px"
+        viewBox="0 0 24 24"
+        fill="none">
+        <g id="Interface / External_Link">
+          <path
+            id="Vector"
+            d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+    </span>
+  </p>
 </a>
+
+<style>
+  .openLink {
+    transition: all 125ms cubic-bezier(0.4, 0, 0.2, 1);
+    stroke: #000;
+  }
+  .link:hover .openLink {
+    stroke: #fff;
+  }
+</style>

@@ -1,0 +1,24 @@
+---
+interface Props {
+  name: string;
+  pfp: string;
+  proffession: string;
+  ig: string;
+  review: string;
+}
+
+const { name, ig, pfp, proffession, review} = Astro.props
+---
+
+<div class="bg-white p-6">
+  <div class="person">
+    <img src={pfp} alt={name} class="w-6 h-6">
+    <div class="">
+      <p>{name}</p>
+      <p>{proffession}</p>
+      <a href={ig}>{ig}</a>
+    </div>
+
+    <p>{review}</p>
+  </div>
+</div>

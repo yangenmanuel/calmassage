@@ -10,10 +10,10 @@ interface Props {
 const { name, ig, pfp, proffession, review} = Astro.props
 ---
 
-<div class="bg-white p-6 w-[300px] h-[300px]">
+<div class="bg-white p-6 card w-[300px] h-[280px]">
   <div class="person flex flex-col gap-6">
     <div class="info flex flex-row gap-4">
-      <img src={pfp} alt={name} class="w-[50px]">
+      <img src={pfp} alt={name} class="w-[30px] object-cover">
       <div class="side-col">
         <p class="font-title font-bold text-primary text-xl">{name}</p>
         <p class="font-title">{proffession}</p>

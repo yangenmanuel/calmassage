@@ -10,15 +10,15 @@ interface Props {
 const { imgUrl, alt, title, description, link } = Astro.props
 ---
 
-<a
-  class="link group relative flex h-[450px] w-[300px] flex-col rounded-md border-primary bg-primary shadow-md transition hover:scale-105 hover:shadow-none"
-  href={link}>
+<div
+  class="relative flex h-[450px] w-[300px] flex-col rounded-md border-primary bg-primary shadow-md transition hover:scale-105 hover:shadow-none">
   <img src={imgUrl} alt={alt} class="h-[160px] w-full rounded-t object-cover" />
   <h3 class="my-4 text-center font-title text-lg italic">{title}</h3>
 
   <p class="text-md text-balance px-3 font-text font-medium">{description}</p>
-  <p
-    class="absolute bottom-3 left-3 font-text text-sm transition group-hover:text-white group-hover:underline">
+  <a
+    href={link}
+    class="link absolute bottom-3 left-3 font-text text-sm transition hover:text-white hover:underline">
     Saiba Mais <span class="arrow">
       <svg
         class="openLink inline"
@@ -37,8 +37,8 @@ const { imgUrl, alt, title, description, link } = Astro.props
         </g>
       </svg>
     </span>
-  </p>
-</a>
+  </a>
+</div>
 
 <style>
   .openLink {

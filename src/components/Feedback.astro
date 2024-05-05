@@ -5,10 +5,10 @@ import FeedbackCard from './ui/FeedbackCard.astro'
 ---
 
 <section class="bg-primary">
-  <div class="wrapper max-w-container py-4 lg:py-16 mx-auto">
+  <div class="wrapper max-w-container py-10 lg:py-16 mx-auto">
     <h1 class="font-title text-center pb-4 text-4xl text-[#FFFCF0] lg:pb-16 lg:text-5xl">Feedback de Clientes</h1>
 
-    <div class="slider gap-3 justify-center flex flex-wrap">
+    <div class="slider gap-3 justify-center lg:justify-normal flex flex-wrap">
       {feedbacks.map(({name, ig, pfp, profession, review}) => {
         return <FeedbackCard name={name} ig={ig} pfp={pfp} proffession={profession} review={review} />
       })}

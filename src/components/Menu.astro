@@ -1,18 +1,28 @@
 ---
 import Massage from "./ui/Massage.astro"
-import massages from  "../utils/massages.json" assert { type: "json" }
+import massages from "../utils/massages.json" assert { type: "json" }
 ---
 
 <section class="bg-secondary">
   <div class="mx-auto max-w-container px-4 py-10 lg:px-0 lg:py-16">
-    <h2 class="text-center font-title text-4xl text-[#695125] mb-4 lg:mb-16 lg:text-5xl">
+    <h2
+      class="mb-4 text-center font-title text-4xl text-[#695125] lg:mb-16 lg:text-5xl">
       Wellness Menu
     </h2>
-    <div class="massages flex justify-center gap-4 flex-wrap">
-      <!-- Chiai tsu, relajante, linfatico, lomi lomi, ventosoterapia, reflexologia, tailandes -->
-      {massages.map(({ title, alt, description, imgUrl, link}) => {
-        return <Massage title={title} alt={alt} description={description} imgUrl={imgUrl} link={link}/>
-      })}
+    <div class="massages flex flex-wrap justify-center gap-4">
+      {
+        massages.map(({ title, alt, description, imgUrl, link }) => {
+          return (
+            <Massage
+              title={title}
+              alt={alt}
+              description={description}
+              imgUrl={imgUrl}
+              link={link}
+            />
+          )
+        })
+      }
     </div>
   </div>
 </section>

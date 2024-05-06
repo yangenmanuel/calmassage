@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout.astro"
 
 <Layout bg="secondary" title="Massagem Shiatsu">
   <article class="mx-auto max-w-[80ch] px-4 py-10 lg:px-0 lg:py-20">
-    <a href="/" class="font-text-bold hover:underline "
+    <a href="/" class="font-text-bold hover:underline"
       ><img src="/icons/left-arrow.svg" class="mr-2 inline" />Voltar para o
       inicio</a
     >
@@ -17,6 +17,26 @@ import Layout from "../../layouts/Layout.astro"
         class="rounded-md"
         alt="Massagem Shiatsu"
       />
+
+      <div class="info mt-4 flex justify-between">
+        <div class="duration flex items-center gap-2">
+          <img class="inline" src="/icons/clock.svg" alt="" /><span
+            class="font-text text-lg font-bold">50 minutos</span
+          >
+        </div>
+        <div class="price flex items-center gap-2">
+          <img class="inline" src="/icons/money.svg" alt="" /><span
+            class="font-text text-lg font-bold">R$ 89,90</span
+          >
+        </div>
+      </div>
+
+      <a
+        class="border-4 block mt-4 font-bold  border-primary mt px-6 py-3 text-center font-text text-[#695125] transition hover:bg-white hover:text-black lg:text-lg"
+        href="https://wa.me/48991191144?text=Oi!%20Gostaria%20de%20marcar%20um%20horario"
+        target="_blank">Agendar massagem</a
+      >
+
       <div class="">
         <h2 class="mt-8 font-text text-2xl lg:text-3xl">
           O qué é a massagem shiatsu?
@@ -51,7 +71,9 @@ import Layout from "../../layouts/Layout.astro"
 
       <p class="mt-4 font-text text-lg">
         Você já deve ter percebido que a massagem Shiatsu possui muitos
-        benefícios tanto a <strong>saúde mental</strong>, quanto a <strong>saúde física</strong>.
+        benefícios tanto a <strong>saúde mental</strong>, quanto a <strong
+          >saúde física</strong
+        >.
       </p>
 
       <p class="mt-4 font-text text-lg">
@@ -64,7 +86,7 @@ import Layout from "../../layouts/Layout.astro"
         pode prevenir ou auxiliar no processo de cura:
       </p>
 
-      <ul class="font-text text-lg mt-4 list-disc list-inside">
+      <ul class="mt-4 list-inside list-disc font-text text-lg">
         <li>Dores musculares em geral</li>
         <li>Doenças pulmonares</li>
         <li>Depressão</li>
@@ -80,9 +102,12 @@ import Layout from "../../layouts/Layout.astro"
         <li>Síndrome do pânico</li>
         <li>Hérnia de disco</li>
       </ul>
+      <a
+        class="border-4 block mt-8 font-bold  border-primary mt px-6 py-3 text-center font-text text-[#695125] transition hover:bg-white hover:text-black lg:text-lg"
+        href="https://wa.me/48991191144?text=Oi!%20Gostaria%20de%20marcar%20um%20horario"
+        target="_blank">Agendar massagem</a
+      >
     </section>
+
   </article>
 </Layout>
-
-<style>
-</style>

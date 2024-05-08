@@ -11,7 +11,7 @@ const { imgUrl, alt, title, description, link } = Astro.props
 ---
 
 <div
-  class="relative flex h-[450px] w-[300px] flex-col rounded-md border-primary bg-primary shadow-md transition hover:scale-105 hover:shadow-none">
+  class="cont relative flex h-[450px] w-[300px] flex-col rounded-md bg-primary shadow-md transition hover:scale-105 hover:shadow-none">
   <img src={imgUrl} alt={alt} class="h-[160px] w-full rounded-t object-cover" />
   <h3 class="my-4 text-center font-title text-lg italic">{title}</h3>
 
@@ -47,5 +47,9 @@ const { imgUrl, alt, title, description, link } = Astro.props
   }
   .link:hover .openLink {
     stroke: #fff;
+  }
+
+  .cont {
+    background: #dcc395;
   }
 </style>

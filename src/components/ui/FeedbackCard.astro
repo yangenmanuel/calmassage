@@ -4,16 +4,17 @@ interface Props {
   pfp: string
   proffession: string
   ig: string
+  igUser: string
   review: string
 }
 
-const { name, ig, pfp, proffession, review } = Astro.props
+const { name, ig, igUser, pfp, proffession, review } = Astro.props
 ---
 
 <div class="card h-[280px] w-[300px] bg-white p-6">
   <div class="person flex flex-col gap-6">
     <div class="info flex flex-row gap-4">
-      <img src={pfp} alt={name} class="w-[30px] object-cover" />
+      <img src={pfp} alt={name} class="w-[50px] object-cover" />
       <div class="side-col">
         <p class="font-title text-xl font-bold text-primary">{name}</p>
         <p class="font-title">{proffession}</p>
@@ -22,7 +23,7 @@ const { name, ig, pfp, proffession, review } = Astro.props
     <div class="review flex flex-col gap-4">
       <a class="flex gap-2 transition-all hover:underline" href={ig}>
         <img src="/icons/ig.svg" alt="" srcset="" />
-        <p class="font-text-bold">{ig}</p>
+        <p class="font-text-bold">{igUser}</p>
       </a>
       <p class="font-text">{review}</p>
     </div>

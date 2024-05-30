@@ -1,16 +1,32 @@
 ---
-import feedbacks from '../utils/feedbacks.json' assert { type: "json" }
+import feedbacks from "../utils/feedbacks.json" assert { type: "json" }
 
-import FeedbackCard from './ui/FeedbackCard.astro'
+import FeedbackCard from "./ui/FeedbackCard.astro"
 ---
 
 <section class="bg-primary">
-  <div class="wrapper max-w-container py-10 lg:py-16 mx-auto">
-    <h1 class="font-title text-center px-4 pb-4 text-4xl text-[#FFFCF0] lg:pb-16 lg:px-0 lg:text-5xl">Feedback de Clientes</h1>
+  <div class="wrapper mx-auto max-w-container py-10 lg:py-16">
+    <h1
+      class="px-4 pb-4 text-center font-title text-4xl text-[#FFFCF0] lg:px-0 lg:pb-16 lg:text-5xl">
+      Feedback de Clientes
+    </h1>
 
-    <div class="slider gap-3 justify-center lg:justify-normal flex flex-wrap">
-      {feedbacks.map(({name, ig, igUser, pfp, profession, review}) => {
-        return <FeedbackCard name={name} ig={ig} igUser={igUser} pfp={pfp} proffession={profession} review={review} />
-      })}
+    <div
+      class="slider flex flex-wrap justify-center gap-3 lg:justify-center">
+      {
+        feedbacks.map(({ name, ig, igUser, pfp, profession, review }) => {
+          return (
+            <FeedbackCard
+              name={name}
+              ig={ig}
+              igUser={igUser}
+              pfp={pfp}
+              proffession={profession}
+              review={review}
+            />
+          )
+        })
+      }
     </div>
+  </div>
 </section>

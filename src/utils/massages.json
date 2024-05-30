@@ -1,7 +1,7 @@
 [
   {
     "title": "Shiatsu",
-    "imgUrl": "https://www.royaltreatmenttherapeutics.com/wp-content/uploads/2018/07/02I20611.jpg",
+    "imgUrl": "/images/massages/shiatsu.webp",
     "alt": "Massagem Shiatsu",
     "description": "É usada para aumentar a energia e a consciência sobre si, bem como para regular e para melhorar o funcionamento dos órgãos, além de estimular uma maior imunidade contra doenças.",
     "link": "/massages/shiatsu"
@@ -9,7 +9,7 @@
 
   {
     "title": "Relaxante",
-    "imgUrl": "https://www.goodnet.org/photos/620x0/28755_hd.jpg",
+    "imgUrl": "/images/massages/relaxante.webp",
     "alt": "Massagem Relaxante",
     "description": "É uma técnica que aplica movimentos suaves utilizando apenas as mãos na musculatura do corpo, como cotovelos, punhos e antebraços para estimular a produção de hormônios responsáveis pelo relaxamento.",
     "link": "/massages/relaxante"
@@ -17,7 +17,7 @@
 
   {
     "title": "Linfática",
-    "imgUrl": "https://www.instyle.com/thmb/dS9tkYgHDtHfnpneIXur8LeN7dk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/071822-Beauty-lympathic-massage-SOC-2000-3b6dcbc4d00e49c5a30126dab6e636a4.jpg",
+    "imgUrl": "/images/massages/linfatica.webp",
     "alt": "Drenagem Linfatica",
     "description": "Busca estimular o sistema linfático a eliminar o excesso de líquidos no corpo que causam inchaço, através de movimentos suaves, lentos e repetitivos.",
     "link": "/massages/linfatica"
@@ -25,7 +25,7 @@
 
   {
     "title": "Lomi Lomi",
-    "imgUrl": "https://www.espacoprana.com.br/wp-content/uploads/2023/10/blog-1-1.jpg",
+    "imgUrl": "/images/massages/lomilomi.webp",
     "alt": "Massagem Lomi Lomi",
     "description": "Lomi Lomi é uma técnica terapêutica ancestral originária do Havaí, que utiliza movimentos suaves e rítmicos das mãos, antebraços e cotovelos para promover relaxamento profundo e equilíbrio energético no corpo.",
     "link": "/massages/lomilomi"
@@ -33,7 +33,7 @@
 
   {
     "title": "Ventosaterapia",
-    "imgUrl": "https://media.post.rvohealth.io/wp-content/uploads/2019/01/Female_Cupping_Therapy_732x549-thumbnail.jpg",
+    "imgUrl": "/images/massages/ventosoterapia.avif",
     "alt": "Ventosaterapia",
     "description": "Envolve o uso de copos de vidro ou plástico para criar vácuo na pele e, assim, aumentar o fluxo sanguíneo para uma determinada área do corpo. É comumente usada por atletas para ajudar na recuperação muscular.",
     "link": "/massages/ventosaterapia"
@@ -41,7 +41,7 @@
 
   {
     "title": "Tailandêsa",
-    "imgUrl": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/07/Young-female-receiving-massage-by-therapist-in-traditional-thai-position-1296x728-header.jpg?w=1155&h=1528",
+    "imgUrl": "/images/massages/tailandesa.webp",
     "alt": "Massagem Tailandêsa",
     "description": "Técnica antiga onde o indivíduo deita em um tapete no chão e o praticante manipula seu corpo de uma forma que estimule seus órgãos e flexibilidade.",
     "link": "/massages/tailandesa"

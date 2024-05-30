@@ -3,32 +3,24 @@
     "name": "Jaqueline Vanoli",
     "ig": "https://www.instagram.com/jaquelinevanolli/",
     "igUser": "@jaquelinevanolli",
-    "pfp": "/images/users/joaquina.jpg",
+    "pfp": "/images/users/joaquina.webp",
     "review": "Saí da sessão com Yanet sentindo-me rejuvenescida, graças à sua habilidade em aliviar a tensão muscular. Muito recomendável",
     "profession": "Funcionária Pública"
   },
   {
-    "name": "Yanet Tejeda",
-    "ig": "https://www.instagram.com/yanet.tejeda1975/",
-    "igUser": "@yanettejeda1975",
-    "pfp": "https://kentuckycounselingcenter.com/wp-content/uploads/2022/01/thinking-man-gf9b9e7a8b_1920.png",
-    "review": "Blysse Massage Parlour makes it so easy for me to make wellness a habit. I highly recommend the annual package",
-    "profession": "Software Engineer"
+    "name": "Rita Daros",
+    "ig": "https://www.instagram.com/ritacdaros",
+    "igUser": "@ritacdaros",
+    "pfp": "/images/users/rita.webp",
+    "review": "Ela foi extremamente profissional e atenciosa. Saí de lá sentindo-me revigorado e livre de tensões. Recomendo a todos!",
+    "profession": "Doutora"
   },
   {
-    "name": "Yanet Tejeda",
-    "ig": "https://www.instagram.com/yanet.tejeda1975/",
-    "igUser": "@yanettejeda1975",
-    "pfp": "https://kentuckycounselingcenter.com/wp-content/uploads/2022/01/thinking-man-gf9b9e7a8b_1920.png",
-    "review": "Blysse Massage Parlour makes it so easy for me to make wellness a habit. I highly recommend the annual package",
-    "profession": "Software Engineer"
-  },
-  {
-    "name": "Yanet Tejeda",
-    "ig": "https://www.instagram.com/yanet.tejeda1975/",
-    "igUser": "@yanettejeda1975",
-    "pfp": "https://kentuckycounselingcenter.com/wp-content/uploads/2022/01/thinking-man-gf9b9e7a8b_1920.png",
-    "review": "Blysse Massage Parlour makes it so easy for me to make wellness a habit. I highly recommend the annual package",
-    "profession": "Software Engineer"
+    "name": "Gayatria",
+    "ig": "https://www.instagram.com/gayatriestetica",
+    "igUser": "@gayatriestetica",
+    "pfp": "/images/users/gayatria.webp",
+    "review": "Senti uma grande diferença depois da sessão, minha postura melhorou e minhas dores de cabeça desapareceram. O local é limpo e tranquilo. Vale a pena!",
+    "profession": "Ozonoterapeuta"
   }
 ]
